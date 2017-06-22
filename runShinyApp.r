@@ -13,4 +13,9 @@ setwd("D:/code/shiny/github/sophia.dm")
 library(shiny)
 library(plotly)
 
+# start a text-mining example
+runApp("tm")
+
+
+
 
