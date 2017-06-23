@@ -1,11 +1,3 @@
-#install.packages("shiny")
-#install.packages("plotly")
-#install.packages("RCurl")
-
-library(shiny)
-library(plotly)
-library(RCurl)
-
 
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(
@@ -36,7 +28,7 @@ shinyUI(fluidPage(
       href = "http://jkw.cloudapp.net:3838/sophia.dm", 
       span(
         tags$i(class="fa fa-power-off", `aria-hidden` = "true", class="text-gray"),
-        span("Demo", class="text-gray")
+        span("Entry", class="text-gray")
       ),
       target = "_blank"
     )

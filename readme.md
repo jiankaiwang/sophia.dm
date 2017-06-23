@@ -7,12 +7,10 @@ In the [sophia.dm](https://github.com/jiankaiwang/sophia.dm) project, we try and
 ### Field : Text Mining
 ---
 
-* The Text Mining Infrastructure in R 
-  * count-based analysis
+* Count-based Text Mining Infrastructure in R [[demo](http://jkw.cloudapp.net:3838/tm/)]
   * topics
     * find terms on the frequency
     * term associations
     * document listing
   * main reference
     * Ingo Feinerer, Kurt Hornik and David Meyer. (2008) Text Mining Infrastructure in R. *Journal of Statistical Software* Volume 25, Issue 5.
-  * [demo](http://jkw.cloudapp.net:3838/)
