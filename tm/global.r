@@ -1,3 +1,25 @@
+#
+# desc : anything necessary librarie or package should be loaded on global.r, not in server.r or ui.r
+#
+
+#install.packages("shiny")
+#install.packages("plotly")
+#install.packages("ggplot2")
+#install.packages("DT")
+#install.packages("RCurl")
+
+library(shiny)
+library(plotly)
+library(ggplot2)
+library(DT)
+library(RCurl)
+
+tryCatch({
+  source("tm/sophia.r")
+}, warning = function(e) {
+  source("sophia.r")
+})
+
 
 # plain-text example
 processFile = function(filepath) {

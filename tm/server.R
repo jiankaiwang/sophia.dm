@@ -1,18 +1,3 @@
-#install.packages("shiny")
-#install.packages("plotly")
-#install.packages("ggplot2")
-#install.packages("DT")
-
-library(shiny)
-library(plotly)
-library(ggplot2)
-library(DT)
-
-tryCatch({
-  source("tm/sophia.r")
-}, warning = function(e) {
-  source("sophia.r")
-})
 
 # 
 # desc : get import type
